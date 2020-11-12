@@ -7,11 +7,16 @@ import ClassClick from "./components/ClassClick"
 import EventBind from './components/EventBind'
 
 import "./App.css";
-
+import ParentComponent from "./components/ParentComponent";
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList'
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      <NameList />
+      {/* <UserGreeting /> */}
+      {/* <ParentComponent /> */}
+      {/* <EventBind /> */}
       {/* <Counter /> */}
       {/* <Greet name="Bruce" />
       <Greet name="clark" />
