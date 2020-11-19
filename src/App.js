@@ -11,10 +11,16 @@ import ParentComponent from "./components/ParentComponent";
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList'
 import Form from './components/Form'
+import PostList from './components/PostList'
+import ClassCounter from './components/ClassCounter'
+import HookCounter from './components/HookCounter'
 function App() {
   return (
     <div className="App">
-      <Form />
+      <HookCounter />
+      {/* <ClassCounter /> */}
+      {/* <PostList /> */}
+      {/* <Form /> */}
       {/* <NameList /> */}
       {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
