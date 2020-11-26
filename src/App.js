@@ -14,10 +14,18 @@ import Form from './components/Form'
 import PostList from './components/PostList'
 import ClassCounter from './components/ClassCounter'
 import HookCounter from './components/HookCounter'
+import HookCounterTwo from "./components/HookCounterTwo";
+import HookCounterThree from "./components/HookCounterThree";
+import HookCounterFour from "./components/HookCounterFour";
+import HookCounterOne from './components/HookCounterOne'
 function App() {
   return (
     <div className="App">
-      <HookCounter />
+      <HookCounterOne />
+      {/* <HookCounterFour /> */}
+      {/* <HookCounterThree /> */}
+      {/* <HookCounterTwo /> */}
+      {/* <HookCounter /> */}
       {/* <ClassCounter /> */}
       {/* <PostList /> */}
       {/* <Form /> */}
