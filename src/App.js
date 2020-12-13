@@ -20,10 +20,18 @@ import HookCounterFour from "./components/HookCounterFour";
 import HookCounterOne from './components/HookCounterOne'
 import HookMouse from "./components/HookMouse";
 import IntervalHookCounter from "./components/IntervalHookCounter";
+import CounterReducer from "./components/CounterReducer"
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table"
+import PureComp from "./components/PureComp";
 function App() {
   return (
     <div className="App">
-      <IntervalHookCounter />
+      <PureComp/>
+      {/* <Table /> */}
+      {/* <FragmentDemo /> */}
+      {/* <CounterReducer /> */}
+      {/* <IntervalHookCounter /> */}
       {/* <HookMouse /> */}
       {/* <HookCounterOne /> */}
       {/* <HookCounterFour /> */}
